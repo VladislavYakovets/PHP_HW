@@ -8,7 +8,7 @@
   <title>Document</title>
 </head>
 <body>
-<table style="border: 3px solid red"
+<table style="border: 3px solid green"
   <?php for($a=1; $a <=10; $a++){?>
         <tr>
         <?php for($b=1; $b <=10; $b++){?>
@@ -79,13 +79,13 @@ $array4 = [4, 5, 5, 10, 12, 10, 0, 3, 12];
 $y = [];
   foreach ($array4 as $number){
     if (in_array($number, $y) == true){
-        echo 'Есть повторяющейся элемент'." ". $number ."<br>";
+        echo 'Есть повторяющейся элементыыыы'." ". $number ."<br>";
         
   };
     $y[] = $number;
 };
   if ($array4 == $y){
-  echo "Больше нет повторяющихся элементов";
+  echo "Больше нет повторяющихся элементоввввв";
 };
 
 echo '<br/>';
@@ -115,11 +115,12 @@ $array6 = [2,6,
 ];
 foreach ($array6 as $key => $item){
   if (is_array($item) == true){
-      echo 'Является двумерным';
+      echo 'Является двумернымммм';
       $arrayDouble = true;
       break;
   }
 };
 if ($arrayDouble == false){
-  echo 'Не является двумерным';
+  echo 'Не является двумернымммм';
 };
+
