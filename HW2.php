@@ -123,3 +123,4 @@ foreach ($array6 as $key => $item){
 if ($arrayDouble == false){
   echo 'Не является двумерным';
 };
+
